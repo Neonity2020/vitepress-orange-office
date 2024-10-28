@@ -9,15 +9,17 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/welcome' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Start Here',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Welcome', link: '/welcome' },
+          { text: 'Lesson 01', link: '/lesson-01' },
+          { text: 'About', link: '/about' },
+          { text: 'Contact', link: '/contact' }
         ]
       }
     ],

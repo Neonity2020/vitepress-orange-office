@@ -13,11 +13,11 @@ hero:
     height: 300
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 点击这里开始
+      link: /welcome
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我们
+      link: /about
 
 features:
   - title: Excel
