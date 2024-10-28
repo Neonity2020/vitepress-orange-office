@@ -1,0 +1,25 @@
+:root {
+    --vp-c-brand: #ff6b00;
+    --vp-c-brand-light: #ff8533;
+    --vp-c-brand-lighter: #ff9e66;
+    --vp-c-brand-dark: #cc5500;
+    --vp-c-brand-darker: #993f00;
+    
+    /* 按钮悬停的渐变背景 */
+    --vp-button-brand-border: var(--vp-c-brand-light);
+    --vp-button-brand-text: var(--vp-c-white);
+    --vp-button-brand-bg: var(--vp-c-brand);
+    --vp-button-brand-hover-border: var(--vp-c-brand-light);
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+    --vp-button-brand-active-border: var(--vp-c-brand-light);
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+    
+    /* 添加标题颜色配置 */
+    --vp-home-hero-name-color: var(--vp-c-brand);
+    --vp-home-hero-name-background: linear-gradient(120deg, var(--vp-c-brand) 30%, var(--vp-c-brand-light));
+    
+    /* 标题高亮色 */
+    --vp-home-hero-highlight-color: var(--vp-c-brand);
+}
